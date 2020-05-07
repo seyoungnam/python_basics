@@ -12,6 +12,7 @@ def change_file_ext():
     print("name: ", name)
 
     try:
+        # shutil.copyfile(원파일명, 새파일명): 원본파일 내용을 신규파일에다 그대로 복사
         shutil.copyfile(sys.argv[1], name)
     except OSError as err:
         print(err)

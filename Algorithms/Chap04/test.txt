@@ -1,5 +1,3 @@
 Python
-
-what is this?
-
-I would like to know.
+What is Python?
+Why do I learn Python?
