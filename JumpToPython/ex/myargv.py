@@ -1,3 +1,4 @@
+# myargv.py
 import sys
 
 data_list = sys.argv[1:]
