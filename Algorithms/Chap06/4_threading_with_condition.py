@@ -18,7 +18,6 @@ def producer(cond):
 
 if __name__ == "__main__":
     condition = threading.Condition()
-    print("what is condition? ", condition)
     consumer1 = threading.Thread(
         name="소비자1", target=consumer, args=(condition,)
     )
